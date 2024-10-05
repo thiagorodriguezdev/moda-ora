@@ -1,0 +1,87 @@
+@import url(./reset.css);
+@import url(./grid.css);
+@import url(./variables.css);
+@import url(./header.css);
+
+.escolha-certa {
+  width: 100%;
+  padding: 13rem 0 11.5rem 0;
+}
+
+.escolha-certa .escolha-certa__text {
+  width: 100%;
+  text-align: center;
+}
+
+.escolha-certa .escolha-certa__text h1 {
+  font-size: 4.4rem;
+  color: #252525;
+  margin-bottom: 7rem;
+}
+
+.escolha-certa .escolha-certa__text p {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 10rem;
+  text-align: justify;
+}
+
+.escolha-certa-cards {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.escolha-certa-cards .card {
+  width: 100%;
+  text-align: center;
+}
+
+.escolha-certa-cards .card h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: var(--color-text);
+}
+
+.escolha-certa-cards .card p {
+  font-size: 1.8rem;
+  color: var(--color-text);
+  margin-top: 3rem;
+}
+
+.detalhes {
+  width: 100%;
+  height: 800px;
+  background-image: url(../assets/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detalhes h1 {
+  width: 100%;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  color: var(--color-logo);
+  padding: 20rem 0 8.5rem 0;
+}
+
+.detalhes p {
+  width: 100%;
+  max-width: 68rem;
+  font-size: 1.8rem;
+  color: var(--color-logo);
+  text-align: justify;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--bg-footer);
+  padding: 35px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 18px;
+  color: var(--color-text-footer);
+  letter-spacing: 3px;
+}
